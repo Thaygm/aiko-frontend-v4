@@ -1,1 +1,22 @@
 @import 'bootstrap/scss/bootstrap';
+
+$text-color: #4a4a4a;
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: #ecf0f1;
+
+body {
+  color: $text-color;
+  background-color: $background-color;
+}
+
+.card {
+  border: none;
+  background-color: #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+}
