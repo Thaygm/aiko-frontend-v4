@@ -40,7 +40,7 @@
 
 Cypress.Commands.add('checkMapInitialization', () => {
   cy.window().then((win) => {
-    cy.wrap(win.L).should('exist'); // Verifica se o objeto L da Leaflet está disponível
+    cy.wrap(win.L).should('exist');
   });
 });
 
