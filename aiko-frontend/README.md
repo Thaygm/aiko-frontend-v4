@@ -1,75 +1,30 @@
-# Nuxt 3 Minimal Starter
+# Teste FrontEnd 2024
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é um projeto web baseado em Nuxt 3, usando Pinia para gerenciamento de estado, Leaflet para visualização de mapas, e Bootstrap para estilização. O projeto inclui testes end-to-end (E2E) usando Cypress.
 
-## Setup
+## 🚀 Começando
 
-Make sure to install the dependencies:
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste:
 
-```bash
-# npm
-npm install
+1. Clone o repositório em sua máquina e abra-o em seu Editor de preferência;
+2. Abra o Terminal do projeto e digite     **npm i**      para instalação completa das dependências
+3. Para Abrir o projeto e compilar os arquivos typescript, execute no terminal     **npm run dev**
+4. Para abrir os testes, execute    *npm run cypress:open**
 
-# pnpm
-pnpm install
 
-# yarn
-yarn install
+## 🛠️ Construído com
 
-# bun
-bun install
-```
+O projeto utiliza as seguintes dependências:
 
-## Development Server
+- **[@pinia/nuxt](https://pinia.vuejs.org/)**: Para gerenciamento de estado global.
+- **[@types/leaflet](https://www.npmjs.com/package/@types/leaflet)**: Tipos TypeScript para Leaflet.
+- **[Bootstrap](https://getbootstrap.com/)**: Framework de CSS para estilização.
+- **[Bootstrap Icons](https://icons.getbootstrap.com/)**: Ícones baseados em Bootstrap.
+- **[Leaflet](https://leafletjs.com/)**: Biblioteca de mapeamento interativo.
+- **[Nuxt 3](https://nuxt.com/)**: Framework para desenvolvimento de aplicações Vue.js.
+- **[Pug](https://pugjs.org/)**: Motor de template.
+- **[Sass](https://sass-lang.com/)** e **[Sass Loader](https://www.npmjs.com/package/sass-loader)**: Pré-processador CSS.
 
-Start the development server on `http://localhost:3000`:
+### Dependências de Desenvolvimento
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- **[Cypress](https://www.cypress.io/)**: Framework de teste end-to-end.
